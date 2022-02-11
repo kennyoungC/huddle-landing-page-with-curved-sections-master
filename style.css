@@ -60,12 +60,12 @@ body {
 }
 .header-primary {
   color: hsl(192, 100%, 9%);
-  font-size: 3.2rem;
+  font-size: 3.8rem;
   font-weight: 700;
 }
 .header-primary-text {
   display: inline-block;
-  width: 75%;
+  width: 70%;
   color: hsl(192, 100%, 9%);
   font-size: 1.8rem;
   margin-bottom: 1.2rem;
