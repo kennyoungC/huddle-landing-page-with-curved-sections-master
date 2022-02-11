@@ -47,3 +47,38 @@ body {
 .nav-link:hover {
   box-shadow: 0 0.9rem 0.9rem rgba(0, 0, 0, 0.07);
 }
+.header-primary-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.8rem;
+  width: 55%;
+  /* justify-content: center; */
+  text-align: center;
+}
+.header-primary {
+  color: hsl(192, 100%, 9%);
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+.header-primary-text {
+  display: inline-block;
+  width: 75%;
+  color: hsl(192, 100%, 9%);
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+.get-started {
+  text-decoration: none;
+  color: hsl(207, 100%, 98%);
+  padding: 1.2rem 4.8rem;
+  background-color: hsl(321, 100%, 78%);
+  border-radius: 4rem;
+}
+.get-started:hover {
+  box-shadow: 0 0.9rem 0.9rem rgba(0, 0, 0, 0.07);
+}
+.img-box {
+  display: flex;
+  justify-content: center;
+}
