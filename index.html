@@ -17,6 +17,14 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
 
     <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
@@ -52,6 +60,7 @@
           </p>
           <div><a class="get-started" href="#">Get Started For Free</a></div>
         </div>
+        
       </section>
       <section class="section-mockup">
         <div class="img-box container">
@@ -157,22 +166,22 @@
     </main>
     <footer class="section-footer">
       <div class="container section-footer-box">
-        <div class="footer-text-box">
+        <div class="footer-box">
         <img src="images/logo.svg" alt="logo image" />
-        <p>
+        <p class="footer-text-box">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla
           quam, hendrerit lacinia vestibulum a, ultrices quis sem.
         </p>
-        <p>
+        <p class="phone">
           <img src="images/icon-phone.svg" alt="a Phone logo">
           <span>Phone:
-          <a href="tel:+1-543-123-4567">
+          <a class="tel" href="tel:+1-543-123-4567">
                +1-543-123-4567</span
             ></a
           >
         </p>
         <p>
-          <img src="images/icon-email.svg" alt="an email icon" /><span><a href="mailto:example@huddle.com">example@huddle.com"</a></span
+          <img src="images/icon-email.svg" alt="an email icon" /><span><a class="email" href="mailto:example@huddle.com">example@huddle.com"</a></span
           >
 
         </p>
@@ -184,12 +193,20 @@
           </ul>
         </div>
       </div>
+      <div >
+        <p class="sub-header hpclass">Newsletter</p>
+        <p class="sub-header-text hpclass">To recieve tips on how to grow your community, sign up to our
+          weekly newsletter. We’ll never send you spam or pass on your email address</p>
+          <div class="footer-cta-box">
+            <input class="footer-input" type="text">
+            <a class="subscribe" href="#">Subscribe</a>
+          </div>
+      </div>
       </div>
     </footer>
 
-    Newsletter To recieve tips on how to grow your community, sign up to our
-    weekly newsletter. We’ll never send you spam or pass on your email address
-    Subscribe
+     
+    
 
     <footer>
       <p class="attribution">
