@@ -99,8 +99,19 @@ body {
   color: hsl(192, 100%, 9%);
   text-align: center;
 }
+.second-illustration,
+.third-illustration,
 .first-illustration {
+  position: relative;
+  background-color: hsl(207, 100%, 98%);
+  min-height: 50vh;
 }
+.second-illustration {
+  position: relative;
+  background-color: #fff;
+  min-height: 0;
+}
+
 .third-illustration-box,
 .first-illustration-box {
   display: flex;
@@ -109,7 +120,6 @@ body {
   gap: 2.4rem;
 }
 .first-illustration-text-box {
-  position: relative;
 }
 .sub-header {
   font-size: 3.2rem;
@@ -138,6 +148,10 @@ body {
 .header-tertiary {
   font-weight: 600;
   margin-bottom: 2.4rem;
+}
+.aside {
+  margin: 12rem 0;
+  padding: 9.6rem 0;
 }
 
 .footer-text-box {
@@ -207,4 +221,23 @@ body {
   padding: 1.2rem 4.8rem;
   background-color: hsl(322, 100%, 66%);
   border-radius: 0.7rem;
+}
+.custom-shape-divider-bottom-1644876958 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1644876958 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 123px;
+}
+
+.custom-shape-divider-bottom-1644876958 .shape-fill {
+  fill: #ffffff;
 }
